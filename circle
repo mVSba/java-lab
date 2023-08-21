@@ -1,0 +1,15 @@
+import java.util.*;
+class circle
+{
+   public static void main(String x[])
+    {
+    float r;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("enter radius:");
+    r=sc.nextFloat();
+    
+   
+    System.out.println("area of the circle is=" + ((3.14)*r*r));
+    System.out.println("perimeter of the circle is =" + ((2*(3.14)*r)));    
+}
+}
