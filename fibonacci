@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class fabonacci {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.err.println("enter the value of n");
+        int n = sc.nextInt();
+        int f1 = -1, f2 = 1, f3 = 0;
+        while (n > 0) {
+            f3 = f1 + f2;
+            f1 = f2;
+            f2 = f3;
+            System.err.println(f3);
+            n--;
+        }
+        sc.close();
+    }
+}
