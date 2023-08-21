@@ -1,0 +1,10 @@
+class Calaculations{
+public static void min( string args []){
+int sum =0;
+for(intj=1;j<=10;j++)
+{
+sum=sum+j;
+}
+System.out.println("sum of first 10 numbers is ",sum);
+}
+}
