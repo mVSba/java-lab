@@ -1,0 +1,20 @@
+import java.util.*;
+class avgfive
+{
+   public static void main(String x[])
+    {
+    int a,b,c,d,e;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("enter number 1:");
+    a=sc.nextInt();
+    System.out.println("enter number 2:");
+    b=sc.nextInt();
+    System.out.println("enter number 3:");
+    c=sc.nextInt();
+    System.out.println("enter number 4:");
+    d=sc.nextInt();
+    System.out.println("enter number 5:");
+    e=sc.nextInt();
+    System.out.println("avg of 5 numbers is =" + ((a+b+c+d+e)/5));    
+}
+}
